@@ -1,0 +1,23 @@
+# --- Large model weights (>100 MB each) — download from EchoNet-Dynamic ---
+*.pt
+*.pth
+
+# --- Dataset label files — get them from the EchoNet-Dynamic dataset ---
+VolumeTracings.csv
+FileList.csv
+
+# --- Sphinx build output (the live site is built by GitHub Actions) ---
+sphinx/sphinx/build/
+_site/
+
+# --- Script run outputs ---
+demo_output/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- OS / editor cruft ---
+Thumbs.db
+.DS_Store

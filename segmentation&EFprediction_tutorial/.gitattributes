@@ -1,0 +1,15 @@
+# Normalise text to LF in the repo; let Git handle the working-copy EOL.
+* text=auto eol=lf
+
+# Treat these as binary (no EOL conversion, no diff).
+*.png  binary
+*.gif  binary
+*.jpg  binary
+*.zip  binary
+*.avi  binary
+*.npy  binary
+*.pt   binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.eot  binary
