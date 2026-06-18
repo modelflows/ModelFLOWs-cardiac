@@ -91,7 +91,7 @@ can skip the `echonet`, `scipy`, `skimage`, `matplotlib` and `tqdm` installs.
 ## Obtain the pretrained weights
 
 Both scripts load a pretrained `.pt` checkpoint. Download both from the
-[EchoNet-Dynamic releases page](https://github.com/echonet/dynamic/releases)
+[ModelFLOWs-cardiac releases page](https://github.com/modelflows/ModelFLOWs-cardiac/releases/tag/weights)
 (also linked from the [Downloads](08_downloads) page). Save them into the
 project's **`stats/`** folder under the exact names below — that is the location
 each script's `WEIGHTS` path points at (`...\EchoNet-dynamic\stats\…`).

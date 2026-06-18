@@ -20,7 +20,7 @@ sphinx/sphinx/       the Sphinx tutorial source (source/ + Makefile)
 The pretrained `.pt` weights (>100 MB each) and the dataset label CSVs are **not**
 stored in this repo:
 
-- **Weights** → [EchoNet-Dynamic releases](https://github.com/echonet/dynamic/releases)
+- **Weights** → [ModelFLOWs-cardiac releases](https://github.com/modelflows/ModelFLOWs-cardiac/releases/tag/weights)
   — save them as `EchoNet-dynamic/stats/r2plus1d_18_32_2_pretrained.pt` and
   `EchoNet-dynamic/stats/deeplabv3_resnet50_random.pt` (the script `WEIGHTS` paths
   already use these names).

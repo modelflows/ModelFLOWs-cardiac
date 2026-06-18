@@ -27,14 +27,14 @@ each one.
 Both prediction scripts load a checkpoint into `WEIGHTS`. Each file is **larger
 than 100 MB**, so it is not stored in this repository — download the two
 checkpoints from the
-[EchoNet-Dynamic releases page](https://github.com/echonet/dynamic/releases) and
+[ModelFLOWs-cardiac releases page](https://github.com/modelflows/ModelFLOWs-cardiac/releases/tag/weights) and
 save them into `EchoNet-dynamic/stats/`. The script `WEIGHTS` paths already use
 the exact release file names, so no renaming is needed:
 
 | File | Model | Loaded by | Source |
 |------|-------|-----------|--------|
-| `r2plus1d_18_32_2_pretrained.pt` (~239 MB) | R(2+1)D-18 (EF regression) | `PredictEF.py` | [GitHub releases](https://github.com/echonet/dynamic/releases) |
-| `deeplabv3_resnet50_random.pt` (~303 MB) | DeepLabV3-ResNet50 (segmentation) | `PredictSegmentation.py` | [GitHub releases](https://github.com/echonet/dynamic/releases) |
+| `r2plus1d_18_32_2_pretrained.pt` (~239 MB) | R(2+1)D-18 (EF regression) | `PredictEF.py` | [Download](https://github.com/modelflows/ModelFLOWs-cardiac/releases/download/weights/r2plus1d_18_32_2_pretrained.pt) |
+| `deeplabv3_resnet50_random.pt` (~303 MB) | DeepLabV3-ResNet50 (segmentation) | `PredictSegmentation.py` | [Download](https://github.com/modelflows/ModelFLOWs-cardiac/releases/download/weights/deeplabv3_resnet50_random.pt) |
 
 ```{admonition} Don't mix up the two checkpoints
 :class: warning
@@ -100,7 +100,7 @@ EchoNet-Dynamic label files. Both ship with the
 ```{admonition} The demo video is already labelled
 :class: tip
 Both label files include the bundled demo video's row (`0X243FDE8AE0A05B6F`, true
-EF **29.9 %**), so once you have them you can validate the demo without
+EF **29.9 %**), so once you have them you can validate the EF by the demo without
 downloading all 10,030 videos.
 ```
 

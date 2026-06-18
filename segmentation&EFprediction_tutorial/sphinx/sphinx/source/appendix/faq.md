@@ -27,7 +27,7 @@ fraction per video. They use different models and different weight files
 ## Where do I get the weight files?
 
 Download both from the
-[EchoNet-Dynamic releases page](https://github.com/echonet/dynamic/releases)
+[ModelFLOWs-cardiac releases page](https://github.com/modelflows/ModelFLOWs-cardiac/releases/tag/weights)
 (also linked from the [Downloads](../chapters/08_downloads) page).
 
 ## Why are predictions on my data poor?

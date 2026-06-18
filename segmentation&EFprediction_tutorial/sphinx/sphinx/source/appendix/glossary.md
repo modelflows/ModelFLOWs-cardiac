@@ -48,6 +48,6 @@ Checkpoint (.pt)
   and `deeplabv3_resnet50_random.pt`).
 
 EchoNet-Dynamic
-  The Stanford project providing the models and pretrained weights both scripts
-  build on: <https://echonet.github.io/dynamic/>.
+  The Stanford project providing the models and dataset the scripts build on:
+  <https://echonet.github.io/dynamic/>.
 ```
