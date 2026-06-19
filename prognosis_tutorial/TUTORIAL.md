@@ -4,7 +4,7 @@
 > All scripts, notebooks, and utility modules required by this tutorial are available
 > in the following repository:
 >
-> [Download / Clone the repository](https://github.com/modelflows/cardiac-prognosis-echo)
+> **Coming soon**: [Codes](https://github.com/sanchez147304/prognosis_diagnosis_codes/tree/main/prognosis_codes)
 >
 > Once downloaded, keep the folder structure intact — the scripts use relative imports
 > that depend on it.
